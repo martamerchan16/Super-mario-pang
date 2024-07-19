@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pang</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <audio class="musicGame" src="music/Voicy_Super Mario Bros. Theme Song.mp3" loop preload="auto">
+    </audio>
+    <audio class="musicGameOver" src="music/Bowser1.m4a" preload="auto">
+    </audio>
+    <audio class="musicWin" src="music/sm64_mario_yahoo.wav" preload="auto">
+    </audio>
+
+    <div id="startPage">
+        <img class="supermario" src="img/SUPER-MARIO-PANG-18-7-2024.gif" alt="supermario">
+        <button class="buttonStart"> <img class="start" src="img/start.png" alt=""></button>
+        <p>CONTROLS</p>
+        <div id="controls">
+            <img src="./img/arrow left.png" alt="arrowleft">
+            <div>MOVE LEFT</div>
+            <img src="./img/arrow rigth.png" alt="arrowrigth">
+            <div>MOVE RIGTH</div>
+            <img src="./img/spacebar.png" alt="spacebar">
+            <div>SHOOT</div>
+        </div>
+    </div>
+
+    <figure id="game-screen">
+        <div class="counterLives">
+            <img class="live3" src="img/toad.png" alt="toad">
+            <img class="live2" src="img/toad.png" alt="toad">
+            <img class="live1" src="img/toad.png" alt="toad">
+        </div>
+    </figure>
+
+    <div id="gameOver">
+        <img class="gameOver" src="img/game-over-18-7-2024.gif" alt="gameOver">
+        <div id="gameOver1">
+            <img class="bowser" src="img/bowser.png" alt="bowser">
+            <button class="buttonReload"><img class="reset" src="img/reset.png" alt="reset"></button>
+        </div>
+    </div>
+
+    <div id="win">
+        <img class="win" src="img/you-win-18-7-2024.gif" alt="win">
+        <div id="win1">
+            <img class="mario" src="img/win.png" alt="win">
+            <button class="buttonReload1"><img class="reset" src="img/reset.png" alt="reset"></button>
+        </div>
+
+    </div>
+
+    <script src="./js/ball.js"></script>
+    <script src="./js/bullet.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/player.js"></script>
+</body>
+
+</html>
