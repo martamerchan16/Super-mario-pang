@@ -19,4 +19,4 @@ Press the RIGHT or LEFT arrow key to move sideways and the SPACE key to shoot an
 
 # Demo
 
-You can play the game <a href="https://martamerchan16.github.io/iron-pang/">here</a>.
+You can play the game <a href="https://martamerchan16.github.io/Super-mario-pang/">here</a>.
